@@ -1,0 +1,37 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 03b6fc2cc16cdc44e90a353d69179ea859c07a68 Changes
+SHA1 10d74f10aa36323039b8676afdf47568903afcd1 MANIFEST
+SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
+SHA1 f1b7bb03a0ad6ec2e1848f024763b2f477663c4f Makefile.PL
+SHA1 9ebf8ee2a09f43b9e6605272ac7811cdc3e7aa14 README
+SHA1 049c349a596858d0b69c367ff2c4fa191338f794 lib/Map/Tube/Barcelona.pm
+SHA1 f68bdddcf748531c781430339268526aa3f3bd6e share/barcelona-map.xml
+SHA1 7e7ad6ba9893c11e266c1b16e3b047eafd06c194 t/00-load.t
+SHA1 3e86d3e277d4233e55b8a4555bf6edf2dcdf7bd0 t/manifest.t
+SHA1 a572bbed348e70b106f01fa02fee8b8edd6735d5 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJUa7ctAAoJENoXJXWo7C/pKHYIAK3LY3i+GhDqmiCmL7uxYvWb
+LK7i4cATHIAQSTGTT4u/J9UUnuB5Csg16ykV4/katP+NmHsGnVGckTQq8LvdqBG/
+c8uIEaY4mipj+yQu0f8sTVxPCVDyecKfCQWo77Oz1uN45pEnBL1IBa2poS2P92Vx
+IJlt640+PWmhmjbU0kOKoNPxUFMxn51lYEeyoXdxL9DmvYEawNaMmAF9FqgA0Y2k
+yZeYHA+ZHdiY8UqfCPjh7qPTJDha/ePfF+3SGAqH3EW6GpW8gD+z3+GkZ0LitXfZ
+ovkZreJXcORC2Icxwbb4FdOX3l1kEZykcFdWXeyrPofTkQBqL08rdjfbcfHme7E=
+=6HXZ
+-----END PGP SIGNATURE-----
