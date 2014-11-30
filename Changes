@@ -1,4 +1,9 @@
 Revision history for Map-Tube-Barcelona
 
+0.02  Sun Nov 30 12:08:01 2014
+      - Upgraded to use Map::Tube v2.27 as it brings in new fix and feature.
+      - Tidied up the line name for the routes L3, L4 and L11.
+      - Added test script for Line L4.
+
 0.01  Tue Nov 18 21:00:01 2014
       - First version, released.

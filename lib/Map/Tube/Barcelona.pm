@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION = '0.01';
+$Map::Tube::Barcelona::VERSION = '0.02';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -53,7 +53,7 @@ insensitive. It returns back the node sequence from START to END.
     my $metro = Map::Tube::Barcelona->new;
     my $route = $metro->get_shortest_route('Roquetes', 'Maragall');
 
-    print "Route: $route\n";;
+    print "Route: $route\n";
 
 =head1 AUTHOR
 
