@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Barcelona
 
+0.03  Wed Dec 03 21:28:10 2014
+      - Upgraded to use Map::Tube v2.31 as it brings case insensitive station name lookup.
+      - Added test case for case insensitive station name.
+      - Removed SIGNATURE file.
+      - Fixed map data for line L4.
+
 0.02  Sun Nov 30 12:08:01 2014
       - Upgraded to use Map::Tube v2.27 as it brings in new fix and feature.
       - Tidied up the line name for the routes L3, L4 and L11.
