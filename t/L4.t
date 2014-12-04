@@ -8,9 +8,18 @@ while (<DATA>) {
     chomp;
     next if /^\#/;
     my ($description, $from, $to, $expected) = split /\|/;
-    is($metro->get_shortest_route($from, $to), $expected, $description);
+    is_deeply($metro->get_shortest_route($from, $to), _expected_route($expected), $description);
+}
+
+sub _expected_route {
+    my ($route) = @_;
+    my $routes  = [];
+    foreach my $name (split /\,/,$route) {
+        push @$routes, $metro->get_node_by_name($name);
+    }
+    return Map::Tube::Route->new({ nodes => $routes });
 }
 
 __DATA__
-Route 1|Roquetes|Maragall|Roquetes (L3), Trinitat Nova (L3,L4,L11), Via Júlia (L4), Llucmajor (L4), Maragall (L4)
-Route 2|roquetes|maragall|Roquetes (L3), Trinitat Nova (L3,L4,L11), Via Júlia (L4), Llucmajor (L4), Maragall (L4)
+Route 1|Roquetes|Maragall|Roquetes,Trinitat Nova,Via Júlia,Llucmajor,Maragall
+Route 2|roquetes|maragall|Roquetes,Trinitat Nova,Via Júlia,Llucmajor,Maragall
