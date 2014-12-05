@@ -1,5 +1,10 @@
 Revision history for Map-Tube-Barcelona
 
+0.06  Fri Dec 05 20:11:10 2014
+      - Upgraded to use Map::Tube v2.33 as it brings in new fix and feature.
+      - Fixed the test data.
+      - Updated unit test to reflect the changes in Map::Tube v2.33.
+
 0.05  Fri Dec 05 10:50:10 2014
       - Updated the description of method get_shortest_route().
 
