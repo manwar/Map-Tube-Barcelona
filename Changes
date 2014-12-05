@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Barcelona
 
+0.05  Fri Dec 05 10:50:10 2014
+      - Updated the description of method get_shortest_route().
+
 0.04  Thu Dec 04 20:40:10 2014
       - Updated unit test to make use of new class provided by Map::Tube role.
       - Updated description of method get_shortest_route() in the pod documemt.
