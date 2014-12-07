@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Barcelona
 
+0.07  Sat Dec 07 11:25:10 2014
+      - Upgraded to use Map::Tube v2.34 to keep it up to date.
+
 0.06  Fri Dec 05 20:11:10 2014
       - Upgraded to use Map::Tube v2.33 as it brings in new fix and feature.
       - Fixed the test data.

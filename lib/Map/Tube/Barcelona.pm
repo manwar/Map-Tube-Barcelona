@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION = '0.06';
+$Map::Tube::Barcelona::VERSION = '0.07';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
