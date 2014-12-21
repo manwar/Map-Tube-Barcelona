@@ -1,90 +1,75 @@
-package Map::Tube::Barcelona;
+package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::VERSION = '0.08';
+$Map::Tube::Barcelona::Line::L3::VERSION = '0.08';
 
 =head1 NAME
 
-Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
+Map::Tube::Barcelona::Line::L3 - Barcelona Metro L3 Line stations.
 
 =head1 VERSION
 
 Version 0.08
 
-=cut
-
-use 5.006;
-use Data::Dumper;
-use File::Share ':all';
-
-use Moo;
-use namespace::clean;
-
-has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-Barcelona', 'barcelona-map.xml') });
-
-with 'Map::Tube';
+=encoding utf8
 
 =head1 DESCRIPTION
 
-It currently provides functionality to find the shortest  route between  the  two
-given stations. It covers the following Barcelona Metro Lines just yet:
+Barcelona Metro L3 Line stations.
+
+    +--------------------+------------------------------------+
+    |                    |                                    |
+    | Station Name       | Connected To                       |
+    |                    |                                    |
+    +--------------------+------------------------------------+
+    | Zona Universitària | Palau Reial                        |
+    | Palau Reial        | Zona Universitària, Maria Cristina |
+    | Maria Cristina     | Palau Reial, Les Corts             |
+    | Les Corts          | Maria Cristina, Plaça del Centre   |
+    | Plaça del Centre   | Les Corts, Sants Estació           |
+    | Sants Estació      | Plaça del Centre, Tarragona        |
+    | Tarragona          | Sants Estació, Espanya             |
+    | Espanya            | Tarragona, Poble Sec               |
+    | Poble Sec          | Espanya, Paral-lel                 |
+    | Paral-lel          | Poble Sec, Drassenes               |
+    | Drassenes          | Paral-lel, Liceu                   |
+    | Liceu              | Drassenes, Catalunya               |
+    | Catalunya          | Liceu, Passeig de Gràcia           |
+    | Passeig de Gràcia  | Catalunya, Diagonal                |
+    | Diagonal           | Passeig de Gràcia, Fontana         |
+    | Fontana            | Diagonal, Lesseps                  |
+    | Lesseps            | Fontana, Vallcarca                 |
+    | Vallcarca          | Lesseps, Penitents                 |
+    | Penitents          | Vallcarca, Vall d'Hebron           |
+    | Vall d'Hebron      | Penitents, Montbau                 |
+    | Montbau            | Vall d'Hebron, Mundet              |
+    | Mundet             | Montbau, Validaura                 |
+    | Validaura          | Mundet, Cenyelles                  |
+    | Canyelles          | Validaura, Roquestes               |
+    | Roquetes           | Canyelles, Trinitat Nova           |
+    | Trinitat Nova      | Roquetes                           |
+    +--------------------+------------------------------------+
+
+=head1 NOTE
 
 =over 2
 
-=item * L<L3 Line|Map::Tube::Barcelona::Line::L3>
+=item * The station "Sants Estació" is also part of L5 Line.
 
-=item * L4 Line
+=item * The station "Espanya" is also part of L1 Line | L8 Line.
 
-=item * L11 Line
+=item * The station "Paral-lel" is also part of L2 Line.
 
-=back
+=item * The staion "Vall d'Hebro" is also part L4 Line.
 
-=head1 TODO (Metro Lines)
+=item * The station "Trinitat Nova" is also part of L4 Line and L11 Line.
 
-=over 2
+=item * The station "Diagonal" is also part of L5 Line and L6 Line.
 
-=item * L1 Line
+=item * The station "Passeig de Gràcia" is also part of L2 Line and L4 Line.
 
-=item * L2 Line
-
-=item * L4 Line
-
-=item * L5 Line
-
-=item * L6 Line
-
-=item * L7 Line
-
-=item * L8 Line
-
-=item * L9 Line
-
-=item * L10 Line
+=item * The station "Catalunya" is also part of L1 Line and L7 Line.
 
 =back
-
-=head1 CONSTRUCTOR
-
-The constructor DO NOT expects parameters.This setup the default node definitions.
-
-    use strict; use warnings;
-    use Map::Tube::Barcelona;
-
-    my $metro = Map::Tube::Barcelona->new;
-
-=head1 METHODS
-
-=head2 get_shortest_route($from, $to)
-
-Expects 'from' and 'to' station name and returns an object of type L<Map::Tube::Route>.
-On error it returns an object of type L<Map::Tube::Exception>.
-
-    use strict; use warnings;
-    use Map::Tube::Barcelona;
-
-    my $metro = Map::Tube::Barcelona->new;
-    my $route = $metro->get_shortest_route('Roquetes', 'Maragall');
-
-    print "Route: $route\n";
 
 =head1 AUTHOR
 
@@ -105,7 +90,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Barcelona
+    perldoc Map::Tube::Barcelona::Line::L3
 
 You can also look for information at:
 
@@ -169,4 +154,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Barcelona
+1; # End of Map::Tube::Barcelona::Line::L3

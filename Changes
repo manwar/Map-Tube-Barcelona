@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Barcelona
 
+0.08  Sun Dec 21 20:11:20 2014
+      - Upgraded to use Map::Tube v2.46.
+      - Added package to list metro stations for L3 Line.
+      - Updated pod document for Map::Tube::Barcelona about the above changes.
+      - Corrected line information of stations "Diagonal" and "Passeig de Gràcia" in the xml data.
+
 0.07  Sat Dec 07 11:25:10 2014
       - Upgraded to use Map::Tube v2.34 to keep it up to date.
 
