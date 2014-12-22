@@ -1,10 +1,10 @@
-package Map::Tube::Barcelona::Line::L3;
+package Map::Tube::Barcelona::Line::L11;
 
-$Map::Tube::Barcelona::Line::L3::VERSION = '0.09';
+$Map::Tube::Barcelona::Line::L11::VERSION = '0.09';
 
 =head1 NAME
 
-Map::Tube::Barcelona::Line::L3 - Barcelona Metro L3 Line stations.
+Map::Tube::Barcelona::Line::L11 - Barcelona Metro L11 Line stations.
 
 =head1 VERSION
 
@@ -14,61 +14,25 @@ Version 0.09
 
 =head1 DESCRIPTION
 
-Barcelona Metro L3 Line stations.
+Barcelona Metro L11 Line stations.
 
-    +--------------------+------------------------------------+
-    |                    |                                    |
-    | Station Name       | Connected To                       |
-    |                    |                                    |
-    +--------------------+------------------------------------+
-    | Zona Universitària | Palau Reial                        |
-    | Palau Reial        | Zona Universitària, Maria Cristina |
-    | Maria Cristina     | Palau Reial, Les Corts             |
-    | Les Corts          | Maria Cristina, Plaça del Centre   |
-    | Plaça del Centre   | Les Corts, Sants Estació           |
-    | Sants Estació      | Plaça del Centre, Tarragona        |
-    | Tarragona          | Sants Estació, Espanya             |
-    | Espanya            | Tarragona, Poble Sec               |
-    | Poble Sec          | Espanya, Paral-lel                 |
-    | Paral-lel          | Poble Sec, Drassenes               |
-    | Drassenes          | Paral-lel, Liceu                   |
-    | Liceu              | Drassenes, Catalunya               |
-    | Catalunya          | Liceu, Passeig de Gràcia           |
-    | Passeig de Gràcia  | Catalunya, Diagonal                |
-    | Diagonal           | Passeig de Gràcia, Fontana         |
-    | Fontana            | Diagonal, Lesseps                  |
-    | Lesseps            | Fontana, Vallcarca                 |
-    | Vallcarca          | Lesseps, Penitents                 |
-    | Penitents          | Vallcarca, Vall d'Hebron           |
-    | Vall d'Hebron      | Penitents, Montbau                 |
-    | Montbau            | Vall d'Hebron, Mundet              |
-    | Mundet             | Montbau, Validaura                 |
-    | Validaura          | Mundet, Cenyelles                  |
-    | Canyelles          | Validaura, Roquestes               |
-    | Roquetes           | Canyelles, Trinitat Nova           |
-    | Trinitat Nova      | Roquetes                           |
-    +--------------------+------------------------------------+
+    +---------------------+------------------------------------+
+    |                     |                                    |
+    | Station Name        | Connected To                       |
+    |                     |                                    |
+    +---------------------+------------------------------------+
+    | Can Cuiàs           | Ciutat Meridiana                   |
+    | Ciutat Meridiana    | Can Cuiàs, Torre Baró-Vallbona     |
+    | Torre Baró-Vallbona | Ciutat Meridiana, Casa de l'Aigua  |
+    | Casa de l'Aigua     | Torre Baró-Vallbona, Trinitat Nova |
+    | Trinitat Nova       | Casa de l'Aigua                    |
+    +---------------------+------------------------------------+
 
 =head1 NOTE
 
 =over 2
 
-=item * The station "Sants Estació" is also part of L5 Line.
-
-=item * The station "Espanya" is also part of L1 Line | L8 Line.
-
-=item * The station "Paral-lel" is also part of L2 Line.
-
-=item * The staion "Vall d'Hebro" is also part L4 Line.
-
-=item * The station "Trinitat Nova" is also part of L4 Line
-        | L<L11 Line|Map::Tube::Barcelona::Line::L11>.
-
-=item * The station "Diagonal" is also part of L5 Line | L6 Line.
-
-=item * The station "Passeig de Gràcia" is also part of L2 Line | L4 Line.
-
-=item * The station "Catalunya" is also part of L1 Line | L7 Line.
+=item * The station "Trinitat Nova" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
 =back
 
@@ -91,7 +55,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Barcelona::Line::L3
+    perldoc Map::Tube::Barcelona::Line::L11
 
 You can also look for information at:
 
@@ -155,4 +119,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Barcelona::Line::L3
+1; # End of Map::Tube::Barcelona::Line::L11
