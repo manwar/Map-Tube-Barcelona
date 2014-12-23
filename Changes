@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Barcelona
 
+0.11  Tue Dec 23 22:40:20 2014
+      - Updated section "TODO" and removed L4 Line.
+      - Corrected typo in L4 Line package.
+
 0.10  Tue Dec 23 20:30:40 2014
       - Added package to list metro stations for L4 Line.
       - Updated pod document for Map::Tube::Barcelona about the above changes.

@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L4;
 
-$Map::Tube::Barcelona::Line::L4::VERSION = '0.10';
+$Map::Tube::Barcelona::Line::L4::VERSION = '0.11';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Barcelona::Line::L4 - Barcelona Metro L4 Line stations.
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =encoding utf8
 
@@ -56,7 +56,7 @@ Barcelona Metro L4 Line stations.
 =item * The station "Verdageur" is also part of L5 Line.
 
 =item * The station "Passeig de Gràcia" is also part of L2 Line
-        | L<L3 Line|Map::Tube::Baarcelona::Line::L3>.
+        | L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
 =item * The station "Urquinaona" is also part of L1 Line.
 
