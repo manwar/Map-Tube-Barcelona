@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Barcelona
 
+0.10  Tue Dec 23 20:30:40 2014
+      - Added package to list metro stations for L4 Line.
+      - Updated pod document for Map::Tube::Barcelona about the above changes.
+
 0.09  Mon Dec 22 13:35:40 2014
       - Added package to list metro stations for L11 Line.
       - Updated pod document for Map::Tube::Barcelona about the above changes.

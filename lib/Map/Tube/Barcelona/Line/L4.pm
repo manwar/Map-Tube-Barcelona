@@ -1,90 +1,68 @@
-package Map::Tube::Barcelona;
+package Map::Tube::Barcelona::Line::L4;
 
-$Map::Tube::Barcelona::VERSION = '0.10';
+$Map::Tube::Barcelona::Line::L4::VERSION = '0.10';
 
 =head1 NAME
 
-Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
+Map::Tube::Barcelona::Line::L4 - Barcelona Metro L4 Line stations.
 
 =head1 VERSION
 
 Version 0.10
 
-=cut
-
-use 5.006;
-use Data::Dumper;
-use File::Share ':all';
-
-use Moo;
-use namespace::clean;
-
-has xml => (is => 'ro', default => sub { return dist_file('Map-Tube-Barcelona', 'barcelona-map.xml') });
-
-with 'Map::Tube';
+=encoding utf8
 
 =head1 DESCRIPTION
 
-It currently provides functionality to find the shortest  route between  the  two
-given stations. It covers the following Barcelona Metro Lines just yet:
+Barcelona Metro L4 Line stations.
+
+    +--------------------------+------------------------------------+
+    |                          |                                    |
+    | Station Name             | Connected To                       |
+    |                          |                                    |
+    +--------------------------+------------------------------------+
+    | Trinitat Nova            | Via Júlia                          |
+    | Via Júlia                | Trinitat Nova, Llumajor            |
+    | Llucmajor                | Via Júlia, Maragall                |
+    | Maragall                 | Llucmajor, Guinardó                |
+    | Guinardó                 | Maragall, Alfons X                 |
+    | Alfons X                 | Guinardó, Joanic                   |
+    | Joanic                   | Alfons X, Verdageur                |
+    | Verdageur                | Joanic, Girona                     |
+    | Girona                   | Verdageur, Passeig de Gràcia       |
+    | Passeig de Gràcia        | Girona, Urquinaona                 |
+    | Urquinaona               | Passeig de Gràcia, Jaume I         |
+    | Jaume I                  | Urquinaona, Barceloneta            |
+    | Barceloneta              | Jaume I, Ciutadella-Vila Olimpica  |
+    | Ciutadella-Vila Olimpica | Barceloneta, Bogatell              |
+    | Bogatell                 | Ciutadella-Vila Olimpica, Bogatell |
+    | Llacuna                  | Bogatell, Poble Nou                |
+    | Poble Nou                | Llacuna, Selva de Mar              |
+    | Selva de Mar             | Poble Nou, El Maresme-Fòrum        |
+    | El Maresme-Fòrum         | Selva de Mar, Besòs Mar            |
+    | Besòs Mar                | El Maresme-Fòrum, La Pau           |
+    | La Pau                   | Besòs Mar                          |
+    +--------------------------+------------------------------------+
+
+=head1 NOTE
 
 =over 2
 
-=item * L<L3 Line|Map::Tube::Barcelona::Line::L3>
+=item * The station "Trinitat Nova" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>
+        | L<Line 11|Map::Tube::Barcelona::Line::L11>.
 
-=item * L<L4 Line|Map::Tube::Barcelona::Line::L4>
+=item * The station "Maragall" is also part of L5 Line.
 
-=item * L<L11 Line|Map::Tube::Barcelona::Line::L11>
+=item * The station "Verdageur" is also part of L5 Line.
 
-=back
+=item * The station "Passeig de Gràcia" is also part of L2 Line
+        | L<L3 Line|Map::Tube::Baarcelona::Line::L3>.
 
-=head1 TODO (Metro Lines)
+=item * The station "Urquinaona" is also part of L1 Line.
 
-=over 2
-
-=item * L1 Line
-
-=item * L2 Line
-
-=item * L4 Line
-
-=item * L5 Line
-
-=item * L6 Line
-
-=item * L7 Line
-
-=item * L8 Line
-
-=item * L9 Line
-
-=item * L10 Line
+=item * The station "La Pau" is also part of L2 Line.
 
 =back
-
-=head1 CONSTRUCTOR
-
-The constructor DO NOT expects parameters.This setup the default node definitions.
-
-    use strict; use warnings;
-    use Map::Tube::Barcelona;
-
-    my $metro = Map::Tube::Barcelona->new;
-
-=head1 METHODS
-
-=head2 get_shortest_route($from, $to)
-
-Expects 'from' and 'to' station name and returns an object of type L<Map::Tube::Route>.
-On error it returns an object of type L<Map::Tube::Exception>.
-
-    use strict; use warnings;
-    use Map::Tube::Barcelona;
-
-    my $metro = Map::Tube::Barcelona->new;
-    my $route = $metro->get_shortest_route('Roquetes', 'Maragall');
-
-    print "Route: $route\n";
 
 =head1 AUTHOR
 
@@ -105,7 +83,7 @@ bug as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Map::Tube::Barcelona
+    perldoc Map::Tube::Barcelona::Line::L4
 
 You can also look for information at:
 
@@ -169,4 +147,4 @@ OF THE PACKAGE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Map::Tube::Barcelona
+1; # End of Map::Tube::Barcelona::Line::L4

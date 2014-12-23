@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION = '0.09';
+$Map::Tube::Barcelona::Line::L3::VERSION = '0.10';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Map::Tube::Barcelona::Line::L3 - Barcelona Metro L3 Line stations.
 
 =head1 VERSION
 
-Version 0.09
+Version 0.10
 
 =encoding utf8
 
@@ -59,14 +59,15 @@ Barcelona Metro L3 Line stations.
 
 =item * The station "Paral-lel" is also part of L2 Line.
 
-=item * The staion "Vall d'Hebro" is also part L4 Line.
+=item * The staion "Vall d'Hebron" is also part L5 Line.
 
-=item * The station "Trinitat Nova" is also part of L4 Line
+=item * The station "Trinitat Nova" is also part of L<L4 Line|Map::Tube::Barcelona::Line::L4>
         | L<L11 Line|Map::Tube::Barcelona::Line::L11>.
 
 =item * The station "Diagonal" is also part of L5 Line | L6 Line.
 
-=item * The station "Passeig de Gràcia" is also part of L2 Line | L4 Line.
+=item * The station "Passeig de Gràcia" is also part of L2 Line
+        | L<L4 Line|Map::Tube::Barcelona::L4>.
 
 =item * The station "Catalunya" is also part of L1 Line | L7 Line.
 
