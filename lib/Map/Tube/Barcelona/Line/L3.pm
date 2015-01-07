@@ -1,6 +1,9 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION = '0.11';
+$Map::Tube::Barcelona::Line::L3::VERSION   = '0.12';
+$Map::Tube::Barcelona::Line::L3::AUTHORITY = 'cpan:MANWAR';
+
+use strict; use warnings;
 
 =head1 NAME
 
@@ -8,7 +11,7 @@ Map::Tube::Barcelona::Line::L3 - Barcelona Metro L3 Line stations.
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =encoding utf8
 
@@ -118,7 +121,7 @@ L<http://search.cpan.org/dist/Map-Tube-Barcelona/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2014 Mohammad S Anwar.
+Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

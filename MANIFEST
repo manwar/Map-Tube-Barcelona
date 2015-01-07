@@ -5,10 +5,13 @@ lib/Map/Tube/Barcelona/Line/L3.pm
 lib/Map/Tube/Barcelona/Line/L4.pm
 lib/Map/Tube/Barcelona/Line/L11.pm
 Makefile.PL
+LICENSE
 MANIFEST
 MANIFEST.SKIP
 README
 t/00-load.t
 t/manifest.t
 t/pod.t
+t/meta-yml.t
+t/meta-json.t
 t/L4.t

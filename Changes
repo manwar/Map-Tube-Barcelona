@@ -1,5 +1,12 @@
 Revision history for Map-Tube-Barcelona
 
+0.12  Wed Jan 07 12:40:20 2015
+      - Upgraded to use Map::Tube v2.60 as it brings in new fix and feature.
+      - Updated Makefile.PL to generate the key 'provides' for META file correctly.
+      - Added unit test to test META files.
+      - Added LICENSE file.
+      - Updated Copyright year information.
+
 0.11  Tue Dec 23 22:40:20 2014
       - Updated section "TODO" and removed L4 Line.
       - Corrected typo in L4 Line package.

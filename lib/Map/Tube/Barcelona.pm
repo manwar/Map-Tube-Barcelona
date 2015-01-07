@@ -1,6 +1,7 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION = '0.11';
+$Map::Tube::Barcelona::VERSION   = '0.12';
+$Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.11
+Version 0.12
 
 =cut
 
@@ -129,7 +130,7 @@ L<http://search.cpan.org/dist/Map-Tube-Barcelona/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2014 Mohammad S Anwar.
+Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
