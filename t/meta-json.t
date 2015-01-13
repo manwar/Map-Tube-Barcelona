@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 
+use 5.006;
 use strict; use warnings;
 use Map::Tube::Barcelona;
 use Test::More;
