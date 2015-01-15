@@ -24,7 +24,7 @@ WriteMakefile(
         'Moo'              => 0,
         'namespace::clean' => 0,
         'File::Share'      => 0,
-        'Map::Tube'        => '2.62',
+        'Map::Tube'        => '2.63',
         'File::ShareDir::Install' => 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
@@ -33,13 +33,13 @@ WriteMakefile(
         'meta-spec' => { version => 2 },
         provides    => {
             'Map::Tube::Barcelona'
-                => { file => 'lib/Map/Tube/Barcelona.pm',          version => '0.15' },
+                => { file => 'lib/Map/Tube/Barcelona.pm',          version => '0.16' },
             'Map::Tube::Barcelona::Line::L3'
-                => { file => 'lib/Map/Tube/Barcelona/Line/L3.pm',  version => '0.15' },
+                => { file => 'lib/Map/Tube/Barcelona/Line/L3.pm',  version => '0.16' },
             'Map::Tube::Barcelona::Line::L4'
-                => { file => 'lib/Map/Tube/Barcelona/Line/L4.pm',  version => '0.15' },
+                => { file => 'lib/Map/Tube/Barcelona/Line/L4.pm',  version => '0.16' },
             'Map::Tube::Barcelona::Line::L11'
-                => { file => 'lib/Map/Tube/Barcelona/Line/L11.pm', version => '0.15' },
+                => { file => 'lib/Map/Tube/Barcelona/Line/L11.pm', version => '0.16' },
         },
         resources => {
             repository => {
