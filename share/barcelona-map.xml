@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tube>
+<tube name="Barcelona Metro">
+  <lines>
+      <line id="L1"  name="L1"  color="#8B0000" /><!-- Red    -->
+      <line id="L2"  name="L2"  color="#551A8B" /><!-- Purple -->
+      <line id="L3"  name="L3"  color="#006400" /><!-- Green  -->
+      <line id="L4"  name="L4"  color="#FFFF00" /><!-- Yellow -->
+      <line id="L5"  name="L5"  color="#000080" /><!-- Blue   -->
+      <line id="L6"  name="L6"  color="#551A8B" /><!-- Purple -->
+      <line id="L7"  name="L7"  color="#550000" /><!-- Brown  -->
+      <line id="L8"  name="L8"  color="#FF4F00" /><!-- Orange -->
+      <line id="L9"  name="L9"  color="#FF4F00" /><!-- Orange -->
+      <line id="L10" name="L10" color="#000080" /><!-- Blue   -->
+      <line id="L11" name="L11" color="#006400" /><!-- Green  -->
+  </lines>
+
   <stations>
     <station id="TRINITAT-NOVA"     name="Trinitat Nova"       line="L3,L4,L11" link="L04-02,L11-04,L03-25"/>
     <station id="VALL-D'HEBRON"     name="Vall d'Hebron"       line="L3,L5"     link="L03-21,L03-19"/>
