@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION   = '0.18';
+$Map::Tube::Barcelona::Line::L3::VERSION   = '0.19';
 $Map::Tube::Barcelona::Line::L3::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L3 - Barcelona Metro L3 Line stations.
 
 =head1 VERSION
 
-Version 0.18
+Version 0.19
 
 =encoding utf8
 
@@ -71,7 +71,7 @@ Barcelona Metro L3 Line stations.
 =item * The station "Diagonal" is also part of L5 Line | L6 Line.
 
 =item * The station "Passeig de Gràcia" is also part of L2 Line
-        | L<L4 Line|Map::Tube::Barcelona::L4>.
+        | L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
 =item * The station "Catalunya" is also part of L1 Line | L7 Line.
 

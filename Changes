@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Barcelona
 
+0.19  Sun Feb 08 08:35:00 2015
+      - Fixed the pod document of L3 Line NOTE section where one of the link was broken.
+
 0.18  Sun Feb 08 02:05:00 2015
       - Fixed pod document and added the missing line "=end html".
 
