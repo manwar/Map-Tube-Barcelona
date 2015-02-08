@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Barcelona
 
+0.18  Sun Feb 08 02:05:00 2015
+      - Fixed pod document and added the missing line "=end html".
+
 0.17  Sat Feb 07 23:20:00 2015
       - Upgraded to use Map::Tube v2.78.
       - Added map image for L3, L4 and L11 Barcelona Metro lines.
