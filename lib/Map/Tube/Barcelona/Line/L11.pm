@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L11;
 
-$Map::Tube::Barcelona::Line::L11::VERSION   = '0.19';
+$Map::Tube::Barcelona::Line::L11::VERSION   = '0.20';
 $Map::Tube::Barcelona::Line::L11::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,29 +8,29 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Barcelona::Line::L11 - Barcelona Metro L11 Line stations.
+Map::Tube::Barcelona::Line::L11 - Barcelona Metro Map: L11 Line.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =encoding utf8
 
 =head1 DESCRIPTION
 
-Barcelona Metro L11 Line stations.
+Barcelona Metro Map: L11 Line.
 
-    +---------------------+------------------------------------+
-    |                     |                                    |
-    | Station Name        | Connected To                       |
-    |                     |                                    |
-    +---------------------+------------------------------------+
-    | Can Cuiàs           | Ciutat Meridiana                   |
-    | Ciutat Meridiana    | Can Cuiàs, Torre Baró-Vallbona     |
-    | Torre Baró-Vallbona | Ciutat Meridiana, Casa de l'Aigua  |
-    | Casa de l'Aigua     | Torre Baró-Vallbona, Trinitat Nova |
-    | Trinitat Nova       | Casa de l'Aigua                    |
-    +---------------------+------------------------------------+
+    +---------------------+-----------------------------------------------------+
+    |                     |                                                     |
+    | Station Name        | Connected To                                        |
+    |                     |                                                     |
+    +---------------------+-----------------------------------------------------+
+    | Can Cuiàs           | Ciutat Meridiana                                    |
+    | Ciutat Meridiana    | Can Cuiàs, Torre Baró-Vallbona                      |
+    | Torre Baró-Vallbona | Ciutat Meridiana, Casa de l'Aigua                   |
+    | Casa de l'Aigua     | Torre Baró-Vallbona, Trinitat Nova                  |
+    | Trinitat Nova       | Casa de l'Aigua                                     |
+    +---------------------+-----------------------------------------------------+
 
 =head1 NOTE
 
@@ -104,8 +104,8 @@ L<http://search.cpan.org/dist/Map-Tube-Barcelona/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic  License (2.0). You may obtain a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

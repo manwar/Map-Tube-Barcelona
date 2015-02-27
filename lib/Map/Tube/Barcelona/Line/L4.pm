@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L4;
 
-$Map::Tube::Barcelona::Line::L4::VERSION   = '0.19';
+$Map::Tube::Barcelona::Line::L4::VERSION   = '0.20';
 $Map::Tube::Barcelona::Line::L4::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,45 +8,45 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Barcelona::Line::L4 - Barcelona Metro L4 Line stations.
+Map::Tube::Barcelona::Line::L4 - Barcelona Metro Map: L4 Line.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =encoding utf8
 
 =head1 DESCRIPTION
 
-Barcelona Metro L4 Line stations.
+Barcelona Metro Map: L4 Line.
 
-    +--------------------------+------------------------------------+
-    |                          |                                    |
-    | Station Name             | Connected To                       |
-    |                          |                                    |
-    +--------------------------+------------------------------------+
-    | Trinitat Nova            | Via Júlia                          |
-    | Via Júlia                | Trinitat Nova, Llumajor            |
-    | Llucmajor                | Via Júlia, Maragall                |
-    | Maragall                 | Llucmajor, Guinardó                |
-    | Guinardó                 | Maragall, Alfons X                 |
-    | Alfons X                 | Guinardó, Joanic                   |
-    | Joanic                   | Alfons X, Verdageur                |
-    | Verdageur                | Joanic, Girona                     |
-    | Girona                   | Verdageur, Passeig de Gràcia       |
-    | Passeig de Gràcia        | Girona, Urquinaona                 |
-    | Urquinaona               | Passeig de Gràcia, Jaume I         |
-    | Jaume I                  | Urquinaona, Barceloneta            |
-    | Barceloneta              | Jaume I, Ciutadella-Vila Olimpica  |
-    | Ciutadella-Vila Olimpica | Barceloneta, Bogatell              |
-    | Bogatell                 | Ciutadella-Vila Olimpica, Bogatell |
-    | Llacuna                  | Bogatell, Poble Nou                |
-    | Poble Nou                | Llacuna, Selva de Mar              |
-    | Selva de Mar             | Poble Nou, El Maresme-Fòrum        |
-    | El Maresme-Fòrum         | Selva de Mar, Besòs Mar            |
-    | Besòs Mar                | El Maresme-Fòrum, La Pau           |
-    | La Pau                   | Besòs Mar                          |
-    +--------------------------+------------------------------------+
+    +--------------------------+------------------------------------------------+
+    |                          |                                                |
+    | Station Name             | Connected To                                   |
+    |                          |                                                |
+    +--------------------------+------------------------------------------------+
+    | Trinitat Nova            | Via Júlia                                      |
+    | Via Júlia                | Trinitat Nova, Llumajor                        |
+    | Llucmajor                | Via Júlia, Maragall                            |
+    | Maragall                 | Llucmajor, Guinardó                            |
+    | Guinardó                 | Maragall, Alfons X                             |
+    | Alfons X                 | Guinardó, Joanic                               |
+    | Joanic                   | Alfons X, Verdageur                            |
+    | Verdageur                | Joanic, Girona                                 |
+    | Girona                   | Verdageur, Passeig de Gràcia                   |
+    | Passeig de Gràcia        | Girona, Urquinaona                             |
+    | Urquinaona               | Passeig de Gràcia, Jaume I                     |
+    | Jaume I                  | Urquinaona, Barceloneta                        |
+    | Barceloneta              | Jaume I, Ciutadella-Vila Olimpica              |
+    | Ciutadella-Vila Olimpica | Barceloneta, Bogatell                          |
+    | Bogatell                 | Ciutadella-Vila Olimpica, Bogatell             |
+    | Llacuna                  | Bogatell, Poble Nou                            |
+    | Poble Nou                | Llacuna, Selva de Mar                          |
+    | Selva de Mar             | Poble Nou, El Maresme-Fòrum                    |
+    | El Maresme-Fòrum         | Selva de Mar, Besòs Mar                        |
+    | Besòs Mar                | El Maresme-Fòrum, La Pau                       |
+    | La Pau                   | Besòs Mar                                      |
+    +--------------------------+------------------------------------------------+
 
 =head1 NOTE
 
@@ -131,8 +131,8 @@ L<http://search.cpan.org/dist/Map-Tube-Barcelona/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic  License (2.0). You may obtain a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

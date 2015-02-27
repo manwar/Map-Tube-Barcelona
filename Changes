@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Barcelona
 
+0.20  Fri Feb 27 16:50:00 2015
+      - Upgraded to use Map::Tube v2.87.
+      - Added File::ShareDir::Install as configure requires in the Makefile.PL file.
+      - Added Barcelona Metro Map.
+      - General pod changes.
+
 0.19  Sun Feb 08 08:35:00 2015
       - Fixed the pod document of L3 Line NOTE section where one of the link was broken.
 

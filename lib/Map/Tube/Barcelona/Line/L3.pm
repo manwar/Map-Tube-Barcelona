@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION   = '0.19';
+$Map::Tube::Barcelona::Line::L3::VERSION   = '0.20';
 $Map::Tube::Barcelona::Line::L3::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -8,50 +8,50 @@ use strict; use warnings;
 
 =head1 NAME
 
-Map::Tube::Barcelona::Line::L3 - Barcelona Metro L3 Line stations.
+Map::Tube::Barcelona::Line::L3 - Barcelona Metro Map: L3 Line.
 
 =head1 VERSION
 
-Version 0.19
+Version 0.20
 
 =encoding utf8
 
 =head1 DESCRIPTION
 
-Barcelona Metro L3 Line stations.
+Barcelona Metro Map: L3 Line.
 
-    +--------------------+------------------------------------+
-    |                    |                                    |
-    | Station Name       | Connected To                       |
-    |                    |                                    |
-    +--------------------+------------------------------------+
-    | Zona Universitària | Palau Reial                        |
-    | Palau Reial        | Zona Universitària, Maria Cristina |
-    | Maria Cristina     | Palau Reial, Les Corts             |
-    | Les Corts          | Maria Cristina, Plaça del Centre   |
-    | Plaça del Centre   | Les Corts, Sants Estació           |
-    | Sants Estació      | Plaça del Centre, Tarragona        |
-    | Tarragona          | Sants Estació, Espanya             |
-    | Espanya            | Tarragona, Poble Sec               |
-    | Poble Sec          | Espanya, Paral-lel                 |
-    | Paral-lel          | Poble Sec, Drassenes               |
-    | Drassenes          | Paral-lel, Liceu                   |
-    | Liceu              | Drassenes, Catalunya               |
-    | Catalunya          | Liceu, Passeig de Gràcia           |
-    | Passeig de Gràcia  | Catalunya, Diagonal                |
-    | Diagonal           | Passeig de Gràcia, Fontana         |
-    | Fontana            | Diagonal, Lesseps                  |
-    | Lesseps            | Fontana, Vallcarca                 |
-    | Vallcarca          | Lesseps, Penitents                 |
-    | Penitents          | Vallcarca, Vall d'Hebron           |
-    | Vall d'Hebron      | Penitents, Montbau                 |
-    | Montbau            | Vall d'Hebron, Mundet              |
-    | Mundet             | Montbau, Validaura                 |
-    | Validaura          | Mundet, Cenyelles                  |
-    | Canyelles          | Validaura, Roquestes               |
-    | Roquetes           | Canyelles, Trinitat Nova           |
-    | Trinitat Nova      | Roquetes                           |
-    +--------------------+------------------------------------+
+    +--------------------+------------------------------------------------------+
+    |                    |                                                      |
+    | Station Name       | Connected To                                         |
+    |                    |                                                      |
+    +--------------------+------------------------------------------------------+
+    | Zona Universitària | Palau Reial                                          |
+    | Palau Reial        | Zona Universitària, Maria Cristina                   |
+    | Maria Cristina     | Palau Reial, Les Corts                               |
+    | Les Corts          | Maria Cristina, Plaça del Centre                     |
+    | Plaça del Centre   | Les Corts, Sants Estació                             |
+    | Sants Estació      | Plaça del Centre, Tarragona                          |
+    | Tarragona          | Sants Estació, Espanya                               |
+    | Espanya            | Tarragona, Poble Sec                                 |
+    | Poble Sec          | Espanya, Paral-lel                                   |
+    | Paral-lel          | Poble Sec, Drassenes                                 |
+    | Drassenes          | Paral-lel, Liceu                                     |
+    | Liceu              | Drassenes, Catalunya                                 |
+    | Catalunya          | Liceu, Passeig de Gràcia                             |
+    | Passeig de Gràcia  | Catalunya, Diagonal                                  |
+    | Diagonal           | Passeig de Gràcia, Fontana                           |
+    | Fontana            | Diagonal, Lesseps                                    |
+    | Lesseps            | Fontana, Vallcarca                                   |
+    | Vallcarca          | Lesseps, Penitents                                   |
+    | Penitents          | Vallcarca, Vall d'Hebron                             |
+    | Vall d'Hebron      | Penitents, Montbau                                   |
+    | Montbau            | Vall d'Hebron, Mundet                                |
+    | Mundet             | Montbau, Validaura                                   |
+    | Validaura          | Mundet, Cenyelles                                    |
+    | Canyelles          | Validaura, Roquestes                                 |
+    | Roquetes           | Canyelles, Trinitat Nova                             |
+    | Trinitat Nova      | Roquetes                                             |
+    +--------------------+------------------------------------------------------+
 
 =head1 NOTE
 
@@ -140,8 +140,8 @@ L<http://search.cpan.org/dist/Map-Tube-Barcelona/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain a  copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>
