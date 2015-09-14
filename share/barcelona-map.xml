@@ -26,24 +26,6 @@
     <station id="VERDAGUER"         name="Verdaguer"           line="L4,L5"     link="L04-07,L04-09,DIAGONAL"/>
     <station id="URQUINAONA"        name="Urquinaona"          line="L1,L4"     link="PASSEIG-DE-GRACIA,L04-12"/>
 
-    <station id="L04-02"  name="Via Júlia"                     line="L4"  link="TRINITAT-NOVA,L04-03"/>
-    <station id="L04-03"  name="Llucmajor"                     line="L4"  link="L04-02,L04-04"/>
-    <station id="L04-04"  name="Maragall"                      line="L4"  link="L04-03,L04-05"/>
-    <station id="L04-05"  name="Guinardó"                      line="L4"  link="L04-04,L04-06"/>
-    <station id="L04-06"  name="Alfons X"                      line="L4"  link="L04-05,L04-07"/>
-    <station id="L04-07"  name="Joanic"                        line="L4"  link="L04-06,VERDAGUER"/>
-    <station id="L04-09"  name="Girona"                        line="L4"  link="VERDAGUER,PASSEIG-DE-GRACIA"/>
-    <station id="L04-12"  name="Jaume I"                       line="L4"  link="URQUINAONA,L04-13"/>
-    <station id="L04-13"  name="Barceloneta"                   line="L4"  link="L04-12,L04-14"/>
-    <station id="L04-14"  name="Ciutadella-Vila Olimpica"      line="L4"  link="L04-13,L04-15"/>
-    <station id="L04-15"  name="Bogatell"                      line="L4"  link="L04-14,L04-16"/>
-    <station id="L04-16"  name="Llacuna"                       line="L4"  link="L04-15,L04-17"/>
-    <station id="L04-17"  name="Poble Nou"                     line="L4"  link="L04-16,L04-18"/>
-    <station id="L04-18"  name="Selva de Mar"                  line="L4"  link="L04-17,L04-19"/>
-    <station id="L04-19"  name="El Maresme-Fòrum"              line="L4"  link="L04-18,L04-20"/>
-    <station id="L04-20"  name="Besòs Mar"                     line="L4"  link="L04-19,L04-21"/>
-    <station id="L04-21"  name="La Pau"                        line="L4"  link="L04-20"/>
-
     <station id="L03-01"  name="Zona Universitària"            line="L3"  link="L03-02"/>
     <station id="L03-02"  name="Palau Reial"                   line="L3"  link="L03-03,L03-01"/>
     <station id="L03-03"  name="Maria Cristina"                line="L3"  link="L03-04,L03-02"/>
@@ -62,6 +44,24 @@
     <station id="L03-23"  name="Validaura"                     line="L3"  link="L03-22,L03-24"/>
     <station id="L03-24"  name="Canyelles"                     line="L3"  link="L03-23,L03-25"/>
     <station id="L03-25"  name="Roquetes"                      line="L3"  link="L03-24,TRINITAT-NOVA"/>
+
+    <station id="L04-02"  name="Via Júlia"                     line="L4"  link="TRINITAT-NOVA,L04-03"/>
+    <station id="L04-03"  name="Llucmajor"                     line="L4"  link="L04-02,L04-04"/>
+    <station id="L04-04"  name="Maragall"                      line="L4"  link="L04-03,L04-05"/>
+    <station id="L04-05"  name="Guinardó"                      line="L4"  link="L04-04,L04-06"/>
+    <station id="L04-06"  name="Alfons X"                      line="L4"  link="L04-05,L04-07"/>
+    <station id="L04-07"  name="Joanic"                        line="L4"  link="L04-06,VERDAGUER"/>
+    <station id="L04-09"  name="Girona"                        line="L4"  link="VERDAGUER,PASSEIG-DE-GRACIA"/>
+    <station id="L04-12"  name="Jaume I"                       line="L4"  link="URQUINAONA,L04-13"/>
+    <station id="L04-13"  name="Barceloneta"                   line="L4"  link="L04-12,L04-14"/>
+    <station id="L04-14"  name="Ciutadella-Vila Olimpica"      line="L4"  link="L04-13,L04-15"/>
+    <station id="L04-15"  name="Bogatell"                      line="L4"  link="L04-14,L04-16"/>
+    <station id="L04-16"  name="Llacuna"                       line="L4"  link="L04-15,L04-17"/>
+    <station id="L04-17"  name="Poble Nou"                     line="L4"  link="L04-16,L04-18"/>
+    <station id="L04-18"  name="Selva de Mar"                  line="L4"  link="L04-17,L04-19"/>
+    <station id="L04-19"  name="El Maresme-Fòrum"              line="L4"  link="L04-18,L04-20"/>
+    <station id="L04-20"  name="Besòs Mar"                     line="L4"  link="L04-19,L04-21"/>
+    <station id="L04-21"  name="La Pau"                        line="L4"  link="L04-20"/>
 
     <station id="L08-01"  name="Moli Nou-ciutat Cooperativa"   line="L8"  link="L08-02"/>
     <station id="L08-02"  name="Sant Boi"                      line="L8"  link="L08-01,L08-03"/>

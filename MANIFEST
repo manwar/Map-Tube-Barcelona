@@ -3,6 +3,7 @@ share/barcelona-map.xml
 lib/Map/Tube/Barcelona.pm
 lib/Map/Tube/Barcelona/Line/L3.pm
 lib/Map/Tube/Barcelona/Line/L4.pm
+lib/Map/Tube/Barcelona/Line/L8.pm
 lib/Map/Tube/Barcelona/Line/L11.pm
 Makefile.PL
 LICENSE
