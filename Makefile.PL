@@ -27,18 +27,18 @@ WriteMakefile(
         'Moo'              => '2.000000',
         'namespace::clean' => '0.24',
         'File::Share'      => '0.25',
-        'Map::Tube'        => '3.00',
+        'Map::Tube'        => '3.01',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Map-Tube-Barcelona-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Map::Tube::Barcelona'            => { file => 'lib/Map/Tube/Barcelona.pm',          version => '0.24' },
-            'Map::Tube::Barcelona::Line::L3'  => { file => 'lib/Map/Tube/Barcelona/Line/L3.pm',  version => '0.24' },
-            'Map::Tube::Barcelona::Line::L4'  => { file => 'lib/Map/Tube/Barcelona/Line/L4.pm',  version => '0.24' },
-            'Map::Tube::Barcelona::Line::L8'  => { file => 'lib/Map/Tube/Barcelona/Line/L8.pm',  version => '0.24' },
-            'Map::Tube::Barcelona::Line::L11' => { file => 'lib/Map/Tube/Barcelona/Line/L11.pm', version => '0.24' },
+            'Map::Tube::Barcelona'            => { file => 'lib/Map/Tube/Barcelona.pm',          version => '0.25' },
+            'Map::Tube::Barcelona::Line::L3'  => { file => 'lib/Map/Tube/Barcelona/Line/L3.pm',  version => '0.25' },
+            'Map::Tube::Barcelona::Line::L4'  => { file => 'lib/Map/Tube/Barcelona/Line/L4.pm',  version => '0.25' },
+            'Map::Tube::Barcelona::Line::L8'  => { file => 'lib/Map/Tube/Barcelona/Line/L8.pm',  version => '0.25' },
+            'Map::Tube::Barcelona::Line::L11' => { file => 'lib/Map/Tube/Barcelona/Line/L11.pm', version => '0.25' },
         },
         resources => {
             repository => {

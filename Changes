@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Barcelona
 
+0.25  Tue Sep 22 10:25:00 2015
+      - Upgraded to use Map::Tube v3.01.
+
 0.24  Mon Sep 14 10:50:00 2015
       - Added package to list metro stations for L8 Line.
       - Updated pod document for Map::Tube::Barcelona about the above changes.
