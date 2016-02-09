@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION   = '0.25';
+$Map::Tube::Barcelona::Line::L3::VERSION   = '0.26';
 $Map::Tube::Barcelona::Line::L3::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L3 - Barcelona Metro Map: L3 Line.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =encoding utf8
 
@@ -21,9 +21,7 @@ Version 0.25
 Barcelona Metro Map: L3 Line.
 
     +--------------------+------------------------------------------------------+
-    |                    |                                                      |
     | Station Name       | Connected To                                         |
-    |                    |                                                      |
     +--------------------+------------------------------------------------------+
     | Zona Universitària | Palau Reial                                          |
     | Palau Reial        | Zona Universitària, Maria Cristina                   |
@@ -59,7 +57,8 @@ Barcelona Metro Map: L3 Line.
 
 =item * The station "Sants Estació" is also part of L5 Line.
 
-=item * The station "Espanya" is also part of L1 Line | L8 Line.
+=item * The station "Espanya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
+        | L<L8 Line|Map::Tube::Barcelona::Line::L8>.
 
 =item * The station "Paral-lel" is also part of L2 Line.
 
@@ -73,7 +72,7 @@ Barcelona Metro Map: L3 Line.
 =item * The station "Passeig de Gràcia" is also part of L2 Line
         | L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
-=item * The station "Catalunya" is also part of L1 Line | L7 Line.
+=item * The station "Catalunya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1> | L7 Line.
 
 =back
 

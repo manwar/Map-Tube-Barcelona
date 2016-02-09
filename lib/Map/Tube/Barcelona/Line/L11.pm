@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L11;
 
-$Map::Tube::Barcelona::Line::L11::VERSION   = '0.25';
+$Map::Tube::Barcelona::Line::L11::VERSION   = '0.26';
 $Map::Tube::Barcelona::Line::L11::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L11 - Barcelona Metro Map: L11 Line.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =encoding utf8
 
@@ -21,9 +21,7 @@ Version 0.25
 Barcelona Metro Map: L11 Line.
 
     +---------------------+-----------------------------------------------------+
-    |                     |                                                     |
     | Station Name        | Connected To                                        |
-    |                     |                                                     |
     +---------------------+-----------------------------------------------------+
     | Can Cuiàs           | Ciutat Meridiana                                    |
     | Ciutat Meridiana    | Can Cuiàs, Torre Baró-Vallbona                      |

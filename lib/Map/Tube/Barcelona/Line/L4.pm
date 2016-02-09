@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L4;
 
-$Map::Tube::Barcelona::Line::L4::VERSION   = '0.25';
+$Map::Tube::Barcelona::Line::L4::VERSION   = '0.26';
 $Map::Tube::Barcelona::Line::L4::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L4 - Barcelona Metro Map: L4 Line.
 
 =head1 VERSION
 
-Version 0.25
+Version 0.26
 
 =encoding utf8
 
@@ -21,9 +21,7 @@ Version 0.25
 Barcelona Metro Map: L4 Line.
 
     +--------------------------+------------------------------------------------+
-    |                          |                                                |
     | Station Name             | Connected To                                   |
-    |                          |                                                |
     +--------------------------+------------------------------------------------+
     | Trinitat Nova            | Via Júlia                                      |
     | Via Júlia                | Trinitat Nova, Llumajor                        |
@@ -62,7 +60,7 @@ Barcelona Metro Map: L4 Line.
 =item * The station "Passeig de Gràcia" is also part of L2 Line
         | L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
-=item * The station "Urquinaona" is also part of L1 Line.
+=item * The station "Urquinaona" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>.
 
 =item * The station "La Pau" is also part of L2 Line.
 

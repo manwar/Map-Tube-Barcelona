@@ -1,5 +1,15 @@
 Revision history for Map-Tube-Barcelona
 
+0.26  Tue Feb 09 17:15:00 2016
+      - Added Line L1 data to the map file.
+      - Added Line L9 data to the map file.
+      - Added Line L10 data to the map file.
+      - Added unit test t/map.t for map validation.
+      - Added unit test t/L1.t for the line L1.
+      - Added unit test t/L3.t for the line L3.
+      - Added unit test t/L9.t for the newly added line L9.
+      - Added unit test t/L10.t for the newly added line L10.
+
 0.25  Tue Sep 22 10:25:00 2015
       - Upgraded to use Map::Tube v3.01.
 
