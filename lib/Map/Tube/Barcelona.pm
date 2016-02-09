@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION   = '0.26';
+$Map::Tube::Barcelona::VERSION   = '0.27';
 $Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.26
+Version 0.27
 
 =cut
 
@@ -39,7 +39,7 @@ given stations. It covers the following Barcelona Metro Lines just yet:
 
 =item * L<L8 Line|Map::Tube::Barcelona::Line::L8>
 
-=item * L>L9 Line|Map::Tube::Barcelona::Line::L9>
+=item * L<L9 Line|Map::Tube::Barcelona::Line::L9>
 
 =item * L<L10 Line|Map::Tube::Barcelona::Line::L10>
 
