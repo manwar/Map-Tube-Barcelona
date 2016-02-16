@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L8;
 
-$Map::Tube::Barcelona::Line::L8::VERSION   = '0.27';
+$Map::Tube::Barcelona::Line::L8::VERSION   = '0.28';
 $Map::Tube::Barcelona::Line::L8::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L8 - Barcelona Metro Map: L8 Line.
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =encoding utf8
 
@@ -66,7 +66,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Barcelona>
+L<https://github.com/manwar/Map-Tube-Barcelona>
 
 =head1 BUGS
 

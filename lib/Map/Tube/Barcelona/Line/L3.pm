@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION   = '0.27';
+$Map::Tube::Barcelona::Line::L3::VERSION   = '0.28';
 $Map::Tube::Barcelona::Line::L3::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L3 - Barcelona Metro Map: L3 Line.
 
 =head1 VERSION
 
-Version 0.27
+Version 0.28
 
 =encoding utf8
 
@@ -67,12 +67,16 @@ Barcelona Metro Map: L3 Line.
 =item * The station "Trinitat Nova" is also part of L<L4 Line|Map::Tube::Barcelona::Line::L4>
         | L<L11 Line|Map::Tube::Barcelona::Line::L11>.
 
-=item * The station "Diagonal" is also part of L5 Line | L6 Line.
+=item * The station "Diagonal" is also part of L5 Line
+        | L<L6 Line|Map::Tube::Barcelona::Line::L6>
+        | L<L7 Line|Map::Tube::Barcelona::Line::L7>.
 
 =item * The station "Passeig de Gràcia" is also part of L2 Line
         | L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
-=item * The station "Catalunya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1> | L7 Line.
+=item * The station "Catalunya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
+        | L<L6 Line|Map::Tube::Barcelona::Line::L6>
+        | L<L7 Line|Map::Tube::Barcelona::Line::L7>.
 
 =back
 
@@ -98,7 +102,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Map-Tube-Barcelona>
+L<https://github.com/manwar/Map-Tube-Barcelona>
 
 =head1 BUGS
 

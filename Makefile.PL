@@ -34,20 +34,22 @@ WriteMakefile(
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Map::Tube::Barcelona'            => { file => 'lib/Map/Tube/Barcelona.pm',          version => '0.27' },
-            'Map::Tube::Barcelona::Line::L1'  => { file => 'lib/Map/Tube/Barcelona/Line/L1.pm',  version => '0.27' },
-            'Map::Tube::Barcelona::Line::L3'  => { file => 'lib/Map/Tube/Barcelona/Line/L3.pm',  version => '0.27' },
-            'Map::Tube::Barcelona::Line::L4'  => { file => 'lib/Map/Tube/Barcelona/Line/L4.pm',  version => '0.27' },
-            'Map::Tube::Barcelona::Line::L8'  => { file => 'lib/Map/Tube/Barcelona/Line/L8.pm',  version => '0.27' },
-            'Map::Tube::Barcelona::Line::L9'  => { file => 'lib/Map/Tube/Barcelona/Line/L9.pm',  version => '0.27' },
-            'Map::Tube::Barcelona::Line::L10' => { file => 'lib/Map/Tube/Barcelona/Line/L10.pm', version => '0.27' },
-            'Map::Tube::Barcelona::Line::L11' => { file => 'lib/Map/Tube/Barcelona/Line/L11.pm', version => '0.27' },
+            'Map::Tube::Barcelona'            => { file => 'lib/Map/Tube/Barcelona.pm',          version => '0.28' },
+            'Map::Tube::Barcelona::Line::L1'  => { file => 'lib/Map/Tube/Barcelona/Line/L1.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L3'  => { file => 'lib/Map/Tube/Barcelona/Line/L3.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L4'  => { file => 'lib/Map/Tube/Barcelona/Line/L4.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L6'  => { file => 'lib/Map/Tube/Barcelona/Line/L6.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L7'  => { file => 'lib/Map/Tube/Barcelona/Line/L7.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L8'  => { file => 'lib/Map/Tube/Barcelona/Line/L8.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L9'  => { file => 'lib/Map/Tube/Barcelona/Line/L9.pm',  version => '0.28' },
+            'Map::Tube::Barcelona::Line::L10' => { file => 'lib/Map/Tube/Barcelona/Line/L10.pm', version => '0.28' },
+            'Map::Tube::Barcelona::Line::L11' => { file => 'lib/Map/Tube/Barcelona/Line/L11.pm', version => '0.28' },
         },
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Map-Tube-Barcelona.git',
-                web  => 'https://github.com/Manwar/Map-Tube-Barcelona',
+                url  => 'https://github.com/manwar/Map-Tube-Barcelona.git',
+                web  => 'https://github.com/manwar/Map-Tube-Barcelona',
             },
         }})
      : ()

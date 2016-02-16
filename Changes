@@ -1,5 +1,11 @@
 Revision history for Map-Tube-Barcelona
 
+0.28  Tue Feb 16 11:10:00 2016
+      - Added Line L6 data to the map file.
+      - Added Line L7 data to the map file.
+      - Added unit test t/L6.t for the line L6.
+      - Added unit test t/L7.t for the line L7.
+
 0.27  Tue Feb 09 17:30:00 2016
       - Fixed typo in the pod document of Map::Tube::Barcelona.
 
