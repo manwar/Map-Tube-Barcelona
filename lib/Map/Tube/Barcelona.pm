@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION   = '0.28';
+$Map::Tube::Barcelona::VERSION   = '0.29';
 $Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.28
+Version 0.29
 
 =cut
 
@@ -27,15 +27,19 @@ with 'Map::Tube';
 =head1 DESCRIPTION
 
 It currently provides functionality to find the shortest  route between  the  two
-given stations. It covers the following Barcelona Metro Lines just yet:
+given stations. It covers the following Barcelona Metro Lines:
 
 =over 2
 
 =item * L<L1 Line|Map::Tube::Barcelona::Line::L1>
 
+=item * L<L2 Line|Map::Tube::Barcelona::Line::L2>
+
 =item * L<L3 Line|Map::Tube::Barcelona::Line::L3>
 
 =item * L<L4 Line|Map::Tube::Barcelona::Line::L4>
+
+=item * L<L5 Line|Map::Tube::Barcelona::Line::L5>
 
 =item * L<L6 Line|Map::Tube::Barcelona::Line::L6>
 
@@ -48,16 +52,6 @@ given stations. It covers the following Barcelona Metro Lines just yet:
 =item * L<L10 Line|Map::Tube::Barcelona::Line::L10>
 
 =item * L<L11 Line|Map::Tube::Barcelona::Line::L11>
-
-=back
-
-=head1 TODO (Metro Lines)
-
-=over 2
-
-=item * L2 Line
-
-=item * L5 Line
 
 =back
 

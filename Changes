@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Barcelona
 
+0.29  Sun Feb 21 04:15:00 2016
+      - Added Line L2 data to the map file.
+      - Added Line L5 data to the map file.
+
 0.28  Tue Feb 16 11:10:00 2016
       - Added Line L6 data to the map file.
       - Added Line L7 data to the map file.

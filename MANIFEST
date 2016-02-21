@@ -2,8 +2,10 @@ Changes
 share/barcelona-map.xml
 lib/Map/Tube/Barcelona.pm
 lib/Map/Tube/Barcelona/Line/L1.pm
+lib/Map/Tube/Barcelona/Line/L2.pm
 lib/Map/Tube/Barcelona/Line/L3.pm
 lib/Map/Tube/Barcelona/Line/L4.pm
+lib/Map/Tube/Barcelona/Line/L5.pm
 lib/Map/Tube/Barcelona/Line/L6.pm
 lib/Map/Tube/Barcelona/Line/L7.pm
 lib/Map/Tube/Barcelona/Line/L8.pm
