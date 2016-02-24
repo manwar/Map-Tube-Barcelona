@@ -1,5 +1,8 @@
 Revision history for Map-Tube-Barcelona
 
+0.30  Wed Feb 24 16:10:00 2016
+      - Added unit tests for Line L2, Line L5 and Line L11.
+
 0.29  Sun Feb 21 04:15:00 2016
       - Added Line L2 data to the map file.
       - Added Line L5 data to the map file.
