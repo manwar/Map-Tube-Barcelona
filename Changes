@@ -1,5 +1,9 @@
 Revision history for Map-Tube-Barcelona
 
+0.31  Mon Mar 28 23:20:00 2016
+      - Updated test scripts (t/meta-json.t and t/meta-yml.t).
+      - Updated copyright year information.
+
 0.30  Wed Feb 24 16:10:00 2016
       - Added unit tests for Line L2, Line L5 and Line L11.
 

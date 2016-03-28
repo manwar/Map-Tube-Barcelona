@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L1;
 
-$Map::Tube::Barcelona::Line::L1::VERSION   = '0.30';
+$Map::Tube::Barcelona::Line::L1::VERSION   = '0.31';
 $Map::Tube::Barcelona::Line::L1::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L1 - Barcelona Metro Map: L1 Line.
 
 =head1 VERSION
 
-Version 0.30
+Version 0.31
 
 =encoding utf8
 
@@ -135,7 +135,7 @@ L<http://search.cpan.org/dist/Map-Tube-Barcelona/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2014 - 2015 Mohammad S Anwar.
+Copyright (C) 2014 - 2016 Mohammad S Anwar.
 
 This program  is  free software; you can redistribute it and / or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a  copy of the full
