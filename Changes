@@ -1,4 +1,9 @@
-Revision history for Map-Tube-Barcelona
+Revision history for Map::Tube::-Barcelona
+
+0.32  Sun Apr 10 12:30:00 2016
+      - Upgraded to use Map::Tube v3.12.
+      - Cleaned up package for Line L7.
+      - Updated link-up station details.
 
 0.31  Mon Mar 28 23:20:00 2016
       - Updated test scripts (t/meta-json.t and t/meta-yml.t).

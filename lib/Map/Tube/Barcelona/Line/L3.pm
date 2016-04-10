@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L3;
 
-$Map::Tube::Barcelona::Line::L3::VERSION   = '0.31';
+$Map::Tube::Barcelona::Line::L3::VERSION   = '0.32';
 $Map::Tube::Barcelona::Line::L3::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L3 - Barcelona Metro Map: L3 Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =encoding utf8
 
@@ -55,23 +55,23 @@ Barcelona Metro Map: L3 Line.
 
 =over 2
 
-=item * The station "Sants Estació" is also part of L5 Line.
+=item * The station "Sants Estació" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>.
 
 =item * The station "Espanya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
         | L<L8 Line|Map::Tube::Barcelona::Line::L8>.
 
-=item * The station "Paral-lel" is also part of L2 Line.
+=item * The station "Paral-lel" is also part of L<L2 Line|Map::Tube::Barcelona::Line::L2>.
 
-=item * The staion "Vall d'Hebron" is also part L5 Line.
+=item * The staion "Vall d'Hebron" is also part L<L5 Line|Map::Tube::Barcelona::Line::L5>.
 
 =item * The station "Trinitat Nova" is also part of L<L4 Line|Map::Tube::Barcelona::Line::L4>
         | L<L11 Line|Map::Tube::Barcelona::Line::L11>.
 
-=item * The station "Diagonal" is also part of L5 Line
+=item * The station "Diagonal" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>
         | L<L6 Line|Map::Tube::Barcelona::Line::L6>
         | L<L7 Line|Map::Tube::Barcelona::Line::L7>.
 
-=item * The station "Passeig de Gràcia" is also part of L2 Line
+=item * The station "Passeig de Gràcia" is also part of L<L2 Line|Map::Tube::Barcelona::Line::L2>
         | L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
 =item * The station "Catalunya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>

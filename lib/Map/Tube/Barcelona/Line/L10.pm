@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L10;
 
-$Map::Tube::Barcelona::Line::L10::VERSION   = '0.31';
+$Map::Tube::Barcelona::Line::L10::VERSION   = '0.32';
 $Map::Tube::Barcelona::Line::L10::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L10 - Barcelona Metro Map: L10 Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =encoding utf8
 
@@ -35,7 +35,7 @@ Barcelona Metro Map: L10 Line.
 
 =over 2
 
-=item * The station "Gorg" is also part of L2 Line.
+=item * The station "Gorg" is also part of <L2 Line|Map::Tube::Barcelona::Line::L2>..
 
 =item * The station "Bon Pastor" is also part of L<L9 Line|Map::Tube::Barcelona::Line::L9>.
 

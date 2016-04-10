@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L7;
 
-$Map::Tube::Barcelona::Line::L7::VERSION   = '0.31';
+$Map::Tube::Barcelona::Line::L7::VERSION   = '0.32';
 $Map::Tube::Barcelona::Line::L7::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,18 +12,13 @@ Map::Tube::Barcelona::Line::L7 - Barcelona Metro Map: L7 Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =encoding utf8
 
 =head1 DESCRIPTION
 
 Barcelona Metro Map: L7 Line.
-
-<station id="L07-01"  name="Av Tibidabo"            line="L7"  link="L07-02"/>
-<station id="L07-02"  name="El Putxet"              line="L7"  link="L07-01,L07-03"/>
-<station id="L07-03"  name="Padua"                  line="L7"  link="L07-02,L07-04"/>
-<station id="L07-04"  name="Pl Molina"              line="L7"  link="L07-03,L07-05"/>
 
     +--------------+------------------------------------------------------------+
     | Station Name | Connected To                                               |
@@ -43,7 +38,7 @@ Barcelona Metro Map: L7 Line.
 
 =item * The station "Gracia" is also part of L<L6 Line|Map::Tube::Barcelona::Line::L6>.
 
-=item * The station "Diagonal" is also part of Line 5
+=item * The station "Diagonal" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>
         | L<L6 Line|Map::Tube::Barcelona::Line::L6>
         | L<L11 Line|Map::Tube::Barcelona::Line::L11>.
 

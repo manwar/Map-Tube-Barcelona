@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L4;
 
-$Map::Tube::Barcelona::Line::L4::VERSION   = '0.31';
+$Map::Tube::Barcelona::Line::L4::VERSION   = '0.32';
 $Map::Tube::Barcelona::Line::L4::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L4 - Barcelona Metro Map: L4 Line.
 
 =head1 VERSION
 
-Version 0.31
+Version 0.32
 
 =encoding utf8
 
@@ -53,16 +53,16 @@ Barcelona Metro Map: L4 Line.
 =item * The station "Trinitat Nova" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>
         | L<Line 11|Map::Tube::Barcelona::Line::L11>.
 
-=item * The station "Maragall" is also part of L5 Line.
+=item * The station "Maragall" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>.
 
-=item * The station "Verdageur" is also part of L5 Line.
+=item * The station "Verdageur" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>.
 
-=item * The station "Passeig de Gràcia" is also part of L2 Line
+=item * The station "Passeig de Gràcia" is also part of L<L2 Line|Map::Tube::Barcelona::Line::L2>
         | L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
 =item * The station "Urquinaona" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>.
 
-=item * The station "La Pau" is also part of L2 Line.
+=item * The station "La Pau" is also part of L<L2 Line|Map::Tube::Barcelona::Line::L2>.
 
 =back
 
