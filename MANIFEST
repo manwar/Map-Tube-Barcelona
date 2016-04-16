@@ -23,14 +23,3 @@ t/pod.t
 t/map.t
 t/meta-yml.t
 t/meta-json.t
-t/L1.t
-t/L2.t
-t/L3.t
-t/L4.t
-t/L5.t
-t/L6.t
-t/L7.t
-t/L8.t
-t/L9.t
-t/L10.t
-t/L11.t

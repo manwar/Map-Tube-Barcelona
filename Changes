@@ -1,5 +1,8 @@
 Revision history for Map::Tube::-Barcelona
 
+0.33  Sat Apr 16 15:30:00 2016
+      - Consolidated routes testing functions using method ok_map_routes().
+
 0.32  Sun Apr 10 12:30:00 2016
       - Upgraded to use Map::Tube v3.12.
       - Cleaned up package for Line L7.
