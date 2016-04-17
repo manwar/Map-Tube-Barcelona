@@ -1,5 +1,8 @@
 Revision history for Map::Tube::-Barcelona
 
+0.34  Sun Apr 17 18:05:00 2016
+      - Fixed issue RT #113826 (raised by SREZIC).
+
 0.33  Sat Apr 16 15:30:00 2016
       - Consolidated routes testing functions using method ok_map_routes().
 
