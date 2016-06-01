@@ -1,4 +1,7 @@
-Revision history for Map::Tube::-Barcelona
+Revision history for Map::Tube::Barcelona
+
+0.35  Wed Jun 01 10:10:00 2016
+      - Added missing modules for load unit tests.
 
 0.34  Sun Apr 17 18:05:00 2016
       - Fixed issue RT #113826 (raised by SREZIC).
