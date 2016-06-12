@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION   = '0.35';
+$Map::Tube::Barcelona::VERSION   = '0.36';
 $Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.35
+Version 0.36
 
 =cut
 
@@ -54,6 +54,10 @@ given stations. It covers the following Barcelona Metro Lines:
 =item * L<L11 Line|Map::Tube::Barcelona::Line::L11>
 
 =back
+
+There is a very handy tool provided by L<Map::Tube::CLI> called C<map-tube> which
+exposes the  map  (and all other maps) from command line. Please refer to its pod
+document for more details.
 
 =head1 CONSTRUCTOR
 
@@ -117,6 +121,10 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 =head1 REPOSITORY
 
 L<https://github.com/manwar/Map-Tube-Barcelona>
+
+=head1 SEE ALSO
+
+L<Map::Tube::CLI>
 
 =head1 BUGS
 

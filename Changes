@@ -1,5 +1,10 @@
 Revision history for Map::Tube::Barcelona
 
+0.36  Sun Jun 12 03:30:00 2016
+      - Added section "SEE ALSO" to the pod document.
+      - Added more information about Map::Tube::CLI.
+      - Updated README file.
+
 0.35  Wed Jun 01 10:10:00 2016
       - Added missing modules for load unit tests.
 
