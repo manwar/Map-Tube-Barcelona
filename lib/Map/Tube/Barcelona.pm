@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION   = '0.36';
+$Map::Tube::Barcelona::VERSION   = '0.37';
 $Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.36
+Version 0.37
 
 =cut
 
@@ -124,7 +124,13 @@ L<https://github.com/manwar/Map-Tube-Barcelona>
 
 =head1 SEE ALSO
 
-L<Map::Tube::CLI>
+=over 2
+
+=item * L<Map::Tube>
+
+=item * L<Map::Tube::CLI>
+
+=back
 
 =head1 BUGS
 
