@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L5;
 
-$Map::Tube::Barcelona::Line::L5::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L5::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L5::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L5 - Barcelona Metro Map: L5 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -55,25 +55,33 @@ Barcelona Metro Map: L5 Line.
 
 =over 2
 
-=item * The station "Vall d'Hebron" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>.
+=item * The station "Vall d'Hebron" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
-=item * The station "Maragall" is also part of L<L4 Line|Map::Tube::Barcelona::Line::L4>.
+=item * The station "Maragall" is also part of
+          L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
-=item * The station "La Sagrera" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
+=item * The station "La Sagrera" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>
         | L<L9 Line|Map::Tube::Barcelona::Line::L9>
         | L<L10 Line|Map::Tube::Barcelona::Line::L10>.
 
-=item * The station "Sagrada Familia" is also part of L<L2 Line|Map::Tube::Barcelona::Line::L2>.
+=item * The station "Sagrada Familia" is also part of
+          L<L2 Line|Map::Tube::Barcelona::Line::L2>.
 
-=item * The station "Verdaguer" is also part of L<L4 Line|Map::Tube::Barcelona::Line::L4>.
+=item * The station "Verdaguer" is also part of
+          L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
-=item * The station "Diagonal" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>
+=item * The station "Diagonal" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>
         | L<L6 Line|Map::Tube::Barcelona::Line::L6>
         | L<L7 Line|Map::Tube::Barcelona::Line::L7>.
 
-=item * The station "Sants Estacio" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>.
+=item * The station "Sants Estacio" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
-=item * The station "Placa de Sants" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
+=item * The station "Placa de Sants" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>
 
 =back
 

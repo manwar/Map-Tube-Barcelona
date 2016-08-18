@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L9;
 
-$Map::Tube::Barcelona::Line::L9::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L9::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L9::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L9 - Barcelona Metro Map: L9 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -37,13 +37,17 @@ Barcelona Metro Map: L9 Line.
 
 =over 2
 
-=item * The station "Fondo" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>.
+=item * The station "Fondo" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>.
 
-=item * The station "Bon Pastor" is also part of L<L10 Line|Map::Tube::Barcelona::Line::L10>.
+=item * The station "Bon Pastor" is also part of
+          L<L10 Line|Map::Tube::Barcelona::Line::L10>.
 
-=item * The station "Onze de Setembre" is also part of L<L10 Line|Map::Tube::Barcelona::Line::L10>.
+=item * The station "Onze de Setembre" is also part of
+          L<L10 Line|Map::Tube::Barcelona::Line::L10>.
 
-=item * The station "La Sagrera" is also part of L<L10 Line|Map::Tube::Barcelona::Line::L10>.
+=item * The station "La Sagrera" is also part of
+          L<L10 Line|Map::Tube::Barcelona::Line::L10>.
 
 =back
 

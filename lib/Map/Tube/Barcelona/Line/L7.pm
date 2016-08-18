@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L7;
 
-$Map::Tube::Barcelona::Line::L7::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L7::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L7::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L7 - Barcelona Metro Map: L7 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -36,13 +36,16 @@ Barcelona Metro Map: L7 Line.
 
 =over 2
 
-=item * The station "Gracia" is also part of L<L6 Line|Map::Tube::Barcelona::Line::L6>.
+=item * The station "Gracia" is also part of
+          L<L6 Line|Map::Tube::Barcelona::Line::L6>.
 
-=item * The station "Diagonal" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>
+=item * The station "Diagonal" is also part of
+          L<L5 Line|Map::Tube::Barcelona::Line::L5>
         | L<L6 Line|Map::Tube::Barcelona::Line::L6>
         | L<L11 Line|Map::Tube::Barcelona::Line::L11>.
 
-=item * The station "Catalunya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
+=item * The station "Catalunya" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>
         | L<L3 Line|Map::Tube::Barcelona::Line::L3>
         | L<L6 Line|Map::Tube::Barcelona::Line::L6>.
 

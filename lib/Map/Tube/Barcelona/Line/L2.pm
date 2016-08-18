@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L2;
 
-$Map::Tube::Barcelona::Line::L2::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L2::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L2::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L2 - Barcelona Metro Map: L2 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -47,20 +47,27 @@ Barcelona Metro Map: L2 Line.
 
 =over 2
 
-=item * The station "Gorg" is also part of L<L10 Line|Map::Tube::Barcelona::Line::L10>.
+=item * The station "Gorg" is also part of
+          L<L10 Line|Map::Tube::Barcelona::Line::L10>.
 
-=item * The station "La Pau" is also part of L<L4 Line|Map::Tube::Barcelona::Line::L4>.
+=item * The station "La Pau" is also part of
+          L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
-=item * The station "Clot" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>.
+=item * The station "Clot" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>.
 
-=item * The station "Sagrada Familia" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>.
+=item * The station "Sagrada Familia" is also part of
+          L<L5 Line|Map::Tube::Barcelona::Line::L5>.
 
-=item * The station "Passeig de Gracia" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>
+=item * The station "Passeig de Gracia" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>
         | L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
-=item * The station "Universitat" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>.
+=item * The station "Universitat" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>.
 
-=item * The station "Paral-lel" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>.
+=item * The station "Paral-lel" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
 =back
 

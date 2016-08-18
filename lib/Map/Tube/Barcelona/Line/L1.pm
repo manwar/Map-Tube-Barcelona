@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L1;
 
-$Map::Tube::Barcelona::Line::L1::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L1::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L1::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L1 - Barcelona Metro Map: L1 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -59,18 +59,24 @@ Barcelona Metro Map: L1 Line.
 
 =over 2
 
-=item * The station "Fondo" is also part of L<L9 Line|Map::Tube::Barcelona::Line::L9>.
+=item * The station "Fondo" is also part of
+          L<L9 Line|Map::Tube::Barcelona::Line::L9>.
 
-=item * The station "La Sagrera" is also part of L<L10 Line|Map::Tube::Barcelona::Line::L10>.
+=item * The station "La Sagrera" is also part of
+          L<L10 Line|Map::Tube::Barcelona::Line::L10>.
 
-=item * The station "Clot" is also part of L<L2 Line|Map::Tube::Barcelona::Line::L2>.
+=item * The station "Clot" is also part of
+          L<L2 Line|Map::Tube::Barcelona::Line::L2>.
 
-=item * The station "Espanya" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>
+=item * The station "Espanya" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>
         | L<L8 Line|Map::Tube::Barcelona::Line::L8>.
 
-=item * The station "Placa de Sants" is also part of L<L5 Line|Map::Tube::Barcelona::Line::L5>.
+=item * The station "Placa de Sants" is also part of
+          L<L5 Line|Map::Tube::Barcelona::Line::L5>.
 
-=item * The station "Av Carrilet" is also part of L<L8 Line|Map::Tube::Barcelona::Line::L8>.
+=item * The station "Av Carrilet" is also part of
+          L<L8 Line|Map::Tube::Barcelona::Line::L8>.
 
 =back
 

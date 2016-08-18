@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L8;
 
-$Map::Tube::Barcelona::Line::L8::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L8::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L8::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L8 - Barcelona Metro Map: L8 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -39,7 +39,8 @@ Barcelona Metro Map: L8 Line.
 
 =over 2
 
-=item * The station "Espanya" is also part of L<L1 Line|Map::Tube::Barcelona::Line::L1>
+=item * The station "Espanya" is also part of
+          L<L1 Line|Map::Tube::Barcelona::Line::L1>
         | L<L3 Line|Map::Tube::Barcelona::Line::L3>.
 
 =back

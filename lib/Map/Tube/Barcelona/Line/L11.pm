@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L11;
 
-$Map::Tube::Barcelona::Line::L11::VERSION   = '0.37';
+$Map::Tube::Barcelona::Line::L11::VERSION   = '0.38';
 $Map::Tube::Barcelona::Line::L11::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L11 - Barcelona Metro Map: L11 Line.
 
 =head1 VERSION
 
-Version 0.37
+Version 0.38
 
 =encoding utf8
 
@@ -34,7 +34,8 @@ Barcelona Metro Map: L11 Line.
 
 =over 2
 
-=item * The station "Trinitat Nova" is also part of L<L3 Line|Map::Tube::Barcelona::Line::L3>
+=item * The station "Trinitat Nova" is also part of
+          L<L3 Line|Map::Tube::Barcelona::Line::L3>
         | L<L4 Line|Map::Tube::Barcelona::Line::L4>.
 
 =back
