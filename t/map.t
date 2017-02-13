@@ -5,18 +5,22 @@ use strict;
 use warnings FATAL => 'all';
 use Test::More;
 
-my $min_ver = 0.17;
+my $min_ver = 0.23;
 eval "use Test::Map::Tube $min_ver tests => 3";
 plan skip_all => "Test::Map::Tube $min_ver required." if $@;
 
 use utf8;
 use Map::Tube::Barcelona;
 my $map = Map::Tube::Barcelona->new;
-ok_map($map);
-ok_map_functions($map);
 
-my @routes = <DATA>;
-ok_map_routes($map, \@routes);
+SKIP: {
+    ok_map($map) or skip "Skip map function and routes test.", 2;
+
+    ok_map_functions($map);
+
+    my @routes = <DATA>;
+    ok_map_routes($map, \@routes);
+}
 
 __DATA__
 L1 Route 1|Santa Coloma|Bon Pastor|Santa Coloma,Fondo,Can Peixauet,Bon Pastor
