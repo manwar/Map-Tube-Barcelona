@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona::Line::L7;
 
-$Map::Tube::Barcelona::Line::L7::VERSION   = '0.40';
+$Map::Tube::Barcelona::Line::L7::VERSION   = '0.41';
 $Map::Tube::Barcelona::Line::L7::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Barcelona::Line::L7 - Barcelona Metro Map: L7 Line.
 
 =head1 VERSION
 
-Version 0.40
+Version 0.41
 
 =encoding utf8
 
