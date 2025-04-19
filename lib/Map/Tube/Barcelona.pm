@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION   = '0.78';
+$Map::Tube::Barcelona::VERSION   = '0.79';
 $Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.78
+Version 0.79
 
 =cut
 
@@ -62,7 +62,7 @@ document for more details.
 
 =head2 MAP DATA
 
-The map data collected from <this website|https://www.barcelona-tourist-guide.com/en/maps/barcelona-metro-map.html>.
+The map data collected from L<this website|https://www.barcelona-tourist-guide.com/en/maps/barcelona-metro-map.html>.
 
 =head1 CONSTRUCTOR
 

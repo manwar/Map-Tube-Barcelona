@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Barcelona
 
+0.79  Sat Apr 19 20:05:00 2025
+      - Fixed broken link to map data.
+
 0.78  Sat Apr 19 20:00:00 2025
       - Updated dependency on Map::Tube v4.07.
       - Updated copyright year information.
