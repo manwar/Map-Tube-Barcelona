@@ -1,6 +1,6 @@
 package Map::Tube::Barcelona;
 
-$Map::Tube::Barcelona::VERSION   = '0.79';
+$Map::Tube::Barcelona::VERSION   = '0.80';
 $Map::Tube::Barcelona::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Barcelona - Interface to the Barcelona Metro Map.
 
 =head1 VERSION
 
-Version 0.79
+Version 0.80
 
 =cut
 
@@ -60,7 +60,7 @@ There is a very handy tool provided by L<Map::Tube::CLI> called C<map-tube> whic
 exposes the  map  (and all other maps) from command line. Please refer to its pod
 document for more details.
 
-=head2 MAP DATA
+=head1 MAP DATA
 
 The map data collected from L<this website|https://www.barcelona-tourist-guide.com/en/maps/barcelona-metro-map.html>.
 
