@@ -21,5 +21,5 @@ t/00-load.t
 t/map.t
 xt/manifest.t
 xt/pod.t
-xt/meta-yml.t
-xt/meta-json.t
+xt/provides.t
+xt/version.t
